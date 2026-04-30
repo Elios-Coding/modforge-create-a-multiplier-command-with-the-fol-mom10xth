@@ -1,0 +1,15 @@
+name: CreateAMultiplierCommandWithTheFol
+version: 1.0.0
+main: com.modforge.createamultipliercommandwiththefol.CreateAMultiplierCommandWithTheFolMod
+api-version: '1.20'
+author: Elio
+description: Adds per-player /multiplier controls for Paper/Spigot block drops without creating oversized stacks.
+commands:
+  multiplier:
+    description: Controls your personal block drop multiplier.
+    usage: /multiplier <ON|OFF> [value]
+    permission: dropmultiplier.use
+permissions:
+  dropmultiplier.use:
+    description: Allows players to use multiplier commands.
+    default: true

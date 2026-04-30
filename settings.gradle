@@ -1,0 +1,7 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'create-a-multiplier-command-with-the-fol-mom10xth'
